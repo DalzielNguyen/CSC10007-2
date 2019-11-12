@@ -102,3 +102,5 @@ $ sudo rmmod hook.ko
 ```
 
 **Lưu ý:** Vì hook sẽ liên tục in ra những thông tin về system call được gọi và hệ thống sẽ gọi system call rất rất nhiều lần nên sau khi cài đặt hook vào hệ thống, RAM và dung lượng ổ cứng sẽ bị ăn đi rất nhanh. Bạn nên ghi nhớ điều này để tranh thủ quan sát và gỡ cài đặt càng sớm càng tốt, không nên để hook chạy nền lâu.
+
+(Create by :"Om nhau khoc Team" from 17CNTN with Luve)
